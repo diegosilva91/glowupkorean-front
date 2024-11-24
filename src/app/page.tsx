@@ -1,6 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import sueroImage from "@/public/jumiso-vitamin-serum.png"; 
+import sueroImage from "@/public/jumiso-vitamin-serum.png";
+import bloqueador from "@/public/bloqueador.png";
+import contornoDeOjos from "@/public/contorno-ojos.png";
+
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -12,8 +15,11 @@ export default function Home() {
           <a href="#body-hair-care">Body & hair care</a>
           <a href="#makeup">Makeup</a>
           <a href="#sets-kits">Sets & Kits</a>
-          <div className={styles.cart}>🛒</div>
         </nav>
+        <div className={styles.actions}>
+          <div className={styles.account}>👤</div>
+          <div className={styles.cart}>🛒</div>
+        </div>
       </header>
 
       <main className={styles.main}>
@@ -33,8 +39,8 @@ export default function Home() {
           <Image
             src={sueroImage}
             alt="Suero Iluminador"
-            width={150}
-            height={200}
+            width={180}
+            height={220}
           />
           <p className={styles.productName}>Suero Iluminador</p>
           <p className={styles.productPrice}>€17,00</p>
@@ -43,7 +49,7 @@ export default function Home() {
         <div className={styles.suggestions}>
           <div className={styles.suggestion}>
             <Image
-              src="/bloqueador.jpg"
+              src={bloqueador}
               alt="Bloqueador"
               width={80}
               height={100}
@@ -52,7 +58,7 @@ export default function Home() {
           </div>
           <div className={styles.suggestion}>
             <Image
-              src="/contorno-ojos.jpg"
+              src={contornoDeOjos}
               alt="Contorno de Ojos"
               width={80}
               height={100}
@@ -63,19 +69,18 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <p>Síguenos en redes sociales:</p>
-        <div className={styles.socials}>
+        <div className={styles.socialIcons}>
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            📷 Instagram
+            📷
           </a>
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            📘 Facebook
+            📘
           </a>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            🐦 Twitter
+            🐦
           </a>
           <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
-            🎵 TikTok
+            🎵
           </a>
         </div>
       </footer>
