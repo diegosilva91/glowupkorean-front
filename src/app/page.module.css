@@ -1,0 +1,118 @@
+.page {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff6584;
+}
+
+.nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+.nav .cart {
+  font-size: 1.2rem;
+}
+
+.main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero {
+  margin-bottom: 2rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  background: #ff6584;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #ff405c;
+}
+
+.productShowcase {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.productName {
+  font-size: 1rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.productPrice {
+  font-size: 1.2rem;
+  color: #ff6584;
+  font-weight: bold;
+}
+
+.suggestions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.suggestion {
+  text-align: center;
+}
+
+.suggestion p {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.footer {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+.footer .socials a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.footer .socials a:hover {
+  color: #ff6584;
+}
